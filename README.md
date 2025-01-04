@@ -534,7 +534,7 @@ px.line(
 ![alt text](Figs/19_figure.png)
 ---
 
-**We nedd to observe the highest branch in `summation of total`, so we need to do a `normalization` to make all branchs lines start from same point to easily and clearly comparring between thems, to do this we will divide the total of eash column by day one (`first row`)**
+**We need to observe the highest branch in `summation of total`, so we need to do a `normalization` to make all branchs lines start from same point to easily and clearly comparring between thems, to do this we will divide the total of eash column by day one (`first row`)**
 
 ```py
 date_branch_total_pivot_normalized = date_branch_total_pivot / date_branch_total_pivot.iloc[0, :]
